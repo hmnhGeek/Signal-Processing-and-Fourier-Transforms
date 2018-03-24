@@ -35,3 +35,10 @@ The green signal is the demodulated signal with some phase shift. Blue signal is
 ![Message Signal](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/demodulated.jpg)
 #### Frequency domain
 ![Frequency domain](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/demodulated%20fft.jpg)
+
+## Disclaimer
+    1. The script is designed to work best with sinusoidal message signals. Other forms of signal may or may not work. 
+    2. The demodulated signal always has some distortion at time = 0s. It is not clear why this happens with this script. Might be due to scipy's ifft() function.
+
+## Author
+Himanshu Sharma
