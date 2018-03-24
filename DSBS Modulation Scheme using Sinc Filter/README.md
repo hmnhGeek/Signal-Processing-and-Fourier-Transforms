@@ -26,7 +26,7 @@ The multiplier's job is to add another band at 0 Hz in the frquency domain. This
 ![Frequency domain](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/input%20lpf%20fft.jpg)
 
 ### The Lowpass Filter or Sinc Filter
-There are other types of lowpass filters also, which are even better than this, but this is used because of its simplicity. One can easily find design such a filter if he knows the concept of Fourier Transforms.
+There are other types of lowpass filters also, which are even better than this, but this is used because of its simplicity. One can easily design such a filter if he knows the concept of Fourier Transforms.
 #### Time domain
 ![Sinc Filter](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/sinc%20filter.jpg)
 #### Frequency domain
