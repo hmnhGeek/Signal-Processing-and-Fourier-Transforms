@@ -30,6 +30,7 @@ The message signal has 10 Hz frequency.
 ![Frequency domain](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/sinc%20filter%20fft.jpg)
 
 ### The Sinc filter removes the high frequency content and the message signal is received
+The green signal is the demodulated signal with some phase shift and amplification. Blue signal is the original message signal.
 #### Time domain
 ![Message Signal](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/DSBS%20Modulation%20Scheme%20using%20Sinc%20Filter/Sample%20Images/demodulated.jpg)
 #### Frequency domain
