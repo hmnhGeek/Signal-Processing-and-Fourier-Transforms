@@ -7,7 +7,7 @@ A multiplier uses the same carrier which was used at the transmitter end to mult
 contains twice the carrier frequency components and that is why a lowpass filter is used, which removes them and throws the envelope or the message signal as the output.
 
 ## Sample Run
-This script has an in-built test function to show how this script runs.
+This script has an in-built test function to show how the DSB-SC modulation scheme works.
 
 ### The signal is modulated using a carrier at 1000 Hz and received at the receiver
 The message signal has 10 Hz frequency.
