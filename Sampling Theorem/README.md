@@ -12,22 +12,25 @@ Generating the signal with 1 Hz frequency.
 ```
 python3.5 sampler.py --signal --staticframe -f 1
 ```
+![Sinc at 1 Hz](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/Sampling%20Theorem/Images/signal.png)
 
-### Sample the Signal at 20, 50, 100 and 1000 Hz
+### Sample the Signal at 20, 100 and 1000 Hz
 
 ```
 python3.5 sampler.py  --staticframe -f 1 --fs 20
-python3.5 sampler.py  --staticframe -f 1 --fs 50
 python3.5 sampler.py  --staticframe -f 1 --fs 100
 python3.5 sampler.py  --staticframe -f 1 --fs 1000
 ```
+![Sampling at 20 Hz](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/Sampling%20Theorem/Images/imperfect.png)
+![Sampling at 100 Hz](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/Sampling%20Theorem/Images/sampled.png)
+![Sampling at 1 kHz](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/Sampling%20Theorem/Images/best.png)
 
 ### Display the sampled signal only at 100 Hz
 
 ```
 python3.5 sampler.py  -f 1 --fs 100 --staticframe --showsampleonly
 ```
-
+![Only Sampled](https://github.com/hmnhGeek/Signal-Processing-and-Fourier-Transforms/blob/master/Sampling%20Theorem/Images/onlysample.png)
 ### Run an animation for Sampling frequency from 1 Hz to 500 Hz
 
 ```
